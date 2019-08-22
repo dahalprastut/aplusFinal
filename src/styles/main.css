@@ -181,77 +181,77 @@ nav {
       max-width: 30%; }
 
 .popular {
-  background: url(../images/banner_1.jpg) center center no-repeat fixed;
   padding: 30px 20px 40px 20px;
   max-width: 100%;
   background-size: cover; }
   .popular h2 {
     color: #fff; }
-  .popular .classes .owl-carousel {
+  .popular .classes {
     display: flex;
-    justify-content: space-between; }
-  .popular .classes .box {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    transition: 0.5s;
-    -webkit-transition: 0.5s; }
-    .popular .classes .box .font-awesome {
-      text-align: center;
-      font-size: 80px;
-      color: #0776b2;
-      position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .popular .classes .box {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      width: 30%;
       transition: 0.5s;
       -webkit-transition: 0.5s; }
-      .popular .classes .box .font-awesome .fa-wordpress {
+      .popular .classes .box .font-awesome {
+        text-align: center;
+        font-size: 80px;
+        color: #0776b2;
+        position: relative;
         transition: 0.5s;
-        -webkit-transition: 0.5s;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); }
-      .popular .classes .box .font-awesome::before {
-        content: '';
-        background: #0776b2;
-        width: 0px;
-        height: 3px;
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        transition: 0.5s; }
-    .popular .classes .box .class-description {
-      margin-top: 20px;
-      display: flex;
-      flex-direction: column; }
-      .popular .classes .box .class-description h5 {
-        text-align: center;
-        font-size: 28px;
-        font-weight: 400;
-        color: #fff; }
-      .popular .classes .box .class-description .first-div {
-        color: #fff;
-        margin-top: 10px;
+        -webkit-transition: 0.5s; }
+        .popular .classes .box .font-awesome .fa-wordpress {
+          transition: 0.5s;
+          -webkit-transition: 0.5s;
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%); }
+        .popular .classes .box .font-awesome::before {
+          content: '';
+          background: #0776b2;
+          width: 0px;
+          height: 3px;
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          transition: 0.5s; }
+      .popular .classes .box .class-description {
+        margin-top: 20px;
         display: flex;
-        justify-content: center; }
-        .popular .classes .box .class-description .first-div .left, .popular .classes .box .class-description .first-div .right {
-          display: flex;
-          justify-content: flex-start; }
-        .popular .classes .box .class-description .first-div .right {
-          margin-left: 10px; }
-        .popular .classes .box .class-description .first-div span {
-          margin-right: 8px;
-          margin-left: 8px; }
-      .popular .classes .box .class-description .read-more {
-        text-align: center;
-        margin-top: 20px; }
-        .popular .classes .box .class-description .read-more a {
-          border-color: #fff;
+        flex-direction: column; }
+        .popular .classes .box .class-description h5 {
+          text-align: center;
+          font-size: 28px;
+          font-weight: 400;
           color: #fff; }
-    .popular .classes .box:hover .font-awesome .fa-wordpress {
-      filter: grayscale(0);
-      -webkit-filter: grayscale(0%); }
-    .popular .classes .box:hover .font-awesome::before {
-      content: '';
-      width: 100%; }
+        .popular .classes .box .class-description .first-div {
+          color: #fff;
+          margin-top: 10px;
+          display: flex;
+          justify-content: center; }
+          .popular .classes .box .class-description .first-div .left, .popular .classes .box .class-description .first-div .right {
+            display: flex;
+            justify-content: flex-start; }
+          .popular .classes .box .class-description .first-div .right {
+            margin-left: 10px; }
+          .popular .classes .box .class-description .first-div span {
+            margin-right: 8px;
+            margin-left: 8px; }
+        .popular .classes .box .class-description .read-more {
+          text-align: center;
+          margin-top: 20px; }
+          .popular .classes .box .class-description .read-more a {
+            border-color: #fff;
+            color: #fff; }
+      .popular .classes .box:hover .font-awesome .fa-wordpress {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0%); }
+      .popular .classes .box:hover .font-awesome::before {
+        content: '';
+        width: 100%; }
 
 .courses {
   padding: 30px 20px 40px 20px;
@@ -609,8 +609,11 @@ nav {
       .services .cards > div:not(first-child), .courses .cards > div:not(first-child) {
         margin-left: 0; }
 
-  .popular .classes .box {
-    max-width: 100%; }
+  .popular .classes {
+    display: flex;
+    justify-content: center; }
+    .popular .classes .box {
+      width: 50%; }
 
   .hide-sell {
     display: none; }
@@ -649,11 +652,12 @@ nav {
 
   .popular .classes {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: center; }
     .popular .classes .box {
       align-items: center;
       margin-right: 0;
-      max-width: 100%; }
+      width: 100%; }
       .popular .classes .box .class-description h5 {
         font-size: 20px; }
 

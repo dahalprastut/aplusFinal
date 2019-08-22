@@ -340,7 +340,6 @@ nav{
 // popular start
 
 .popular{
-    background: url(../images/banner_1.jpg) center center no-repeat fixed;
     padding: 30px 20px 40px 20px;
     max-width:100%;
     background-size: cover; 
@@ -351,20 +350,17 @@ nav{
 
     .classes{
         
-        
-        .owl-carousel{
-            display: flex;
-            justify-content: space-between;
-
-        }
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         
         
         .box{
             margin-top: 40px;
-            // margin-right: 60px;
+            // margin-left: 50px;
             display: flex;
             flex-direction: column;
-            max-width: 100%;
+            width: 30%;
             transition: 0.5s;
             -webkit-transition: 0.5s;
          
@@ -1123,16 +1119,16 @@ nav{
     // services ends
 
     // popular start
+    
+  
+
+
     .popular{
         .classes{
-            // display: flex;
-            // justify-content: center;
-
-            
-
-
+            display: flex;
+            justify-content: center;
             .box{
-                max-width: 100%;
+                width: 50%;
             }
         }
     }
@@ -1259,15 +1255,17 @@ nav{
 
     // popular starts
 
+    
     .popular{
         .classes{
             display: flex;
             flex-direction: column;
+            justify-content: center;
 
             .box{
                 align-items: center;
                 margin-right: 0;
-                max-width: 100%;
+                width: 100%;
                 .class-description{
                     h5{
                         font-size: 20px;
@@ -1276,7 +1274,6 @@ nav{
             }
         }
     }
-
     // popular ends
 
 

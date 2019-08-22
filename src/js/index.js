@@ -373,30 +373,30 @@ $(document).ready(function () {
 //   for swiper ends
 
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    autoplay:true,
-    autoplayTimeout:2000,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:false,
-            loop:true
-        }
-    },
-    nav:false,
-    dots:false
-});
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:10,
+//     responsiveClass:true,
+//     autoplay:false,
+//     autoplayTimeout:2000,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true
+//         },
+//         600:{
+//             items:2,
+//             nav:false
+//         },
+//         1000:{
+//             items:3,
+//             nav:false,
+//             loop:true
+//         }
+//     },
+//     nav:false,
+//     dots:false
+// });
 
 $('.owl-second-carousel').owlCarousel({
     loop:true,

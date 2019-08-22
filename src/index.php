@@ -116,148 +116,146 @@
     <!-- popular courses start -->
 
     
-    <div class="popular">
+    <div style="background:url('images/banner_1.jpg') center center no-repeat fixed" class="popular">
         <div class="center">
             <h2>Upcoming Classes</h2>
             <div class="classes">
-                <div class="owl-carousel">
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
-                    
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                </div>
+                
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
-                    <div class="box">
-                        <div class="font-awesome">
-                            <i class="fab fa-wordpress"></i>
+                </div>
+                <div class="box">
+                    <div class="font-awesome">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <div class="class-description">
+                        <h5>Wordpress Training</h5>
+                        <div class="first-div">
+                            <div class="left">
+
+                                <span><i class="far fa-calendar-alt"></i></span>
+                                <small>25th Oct 2019</small>
+                            </div>
+                            <div class="right">
+
+                                <span><i class="fas fa-clock"></i></span>
+                                <small>10:00AM - 2:00PM</small>
+                            </div>
                         </div>
-                        <div class="class-description">
-                            <h5>Wordpress Training</h5>
-                            <div class="first-div">
-                                <div class="left">
-
-                                    <span><i class="far fa-calendar-alt"></i></span>
-                                    <small>25th Oct 2019</small>
-                                </div>
-                                <div class="right">
-
-                                    <span><i class="fas fa-clock"></i></span>
-                                    <small>10:00AM - 2:00PM</small>
-                                </div>
-                            </div>
-                            <div class="read-more">
-                                <a href="#" class="btn">Read More</a>
-                            </div>
+                        <div class="read-more">
+                            <a href="#" class="btn">Read More</a>
                         </div>
                     </div>
                 </div>
