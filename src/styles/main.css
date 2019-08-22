@@ -183,7 +183,8 @@ nav {
 .popular {
   padding: 30px 20px 40px 20px;
   max-width: 100%;
-  background-size: cover; }
+  background-size: cover;
+  background: url("../images/banner_1.jpg") center center no-repeat fixed; }
   .popular h2 {
     color: #fff; }
   .popular .classes {
