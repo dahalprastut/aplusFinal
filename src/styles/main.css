@@ -1,0 +1,834 @@
+body {
+  margin: 0; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none; }
+
+.center {
+  max-width: 1300px;
+  margin: auto; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+.btn {
+  display: inline-block;
+  border: 1px solid #0776b2;
+  outline: 0;
+  padding: 12px;
+  font-size: 18px;
+  color: #000;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s; }
+  .btn:hover {
+    background: #0776b2;
+    border: 1px solid #fff;
+    color: #fff; }
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #0776b2;
+  font-weight: 400; }
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+  .cards > div {
+    max-width: 22%;
+    -webkit-box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 6px 14px 1px rgba(0, 0, 0, 0.75);
+    padding: 20px 15px;
+    margin-top: 36px; }
+    .cards > div .for-service-image {
+      text-align: center; }
+      .cards > div .for-service-image img {
+        display: inline-block; }
+    .cards > div .for-service-description {
+      margin-top: 15px;
+      text-align: center; }
+      .cards > div .for-service-description h4 {
+        font-size: 26px;
+        color: #0776b2; }
+      .cards > div .for-service-description p {
+        margin-top: 14px;
+        font-size: 18px; }
+      .cards > div .for-service-description .btn {
+        margin-top: 22px; }
+  .cards > div:not(first-child) {
+    margin-left: 15px; }
+
+.hide-sell {
+  transform: scale(0) !important;
+  display: none;
+  -webkit-transform: scale(0) !important;
+  margin: 0; }
+
+.top {
+  font-size: 18px;
+  color: #0776b2;
+  padding: 18px 0; }
+  .top .icon {
+    font-size: 20px; }
+  .top .center {
+    display: flex;
+    justify-content: space-between; }
+  .top-left {
+    display: flex;
+    justify-content: flex-start; }
+    .top-left > div {
+      display: flex;
+      justify-content: flex-start; }
+      .top-left > div span.icon {
+        margin-right: 5px; }
+    .top-left__email {
+      margin-left: 24px; }
+      .top-left__email--actual-email {
+        text-decoration: underline;
+        color: #0776b2; }
+  .top-right {
+    display: flex;
+    justify-content: flex-start; }
+    .top-right a {
+      color: #0776b2;
+      font-size: 26px;
+      margin-left: 16px; }
+
+.scrolledNav {
+  position: fixed;
+  z-index: 200;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  left: 0; }
+
+nav {
+  -webkit-box-shadow: 0px 6px 4px -2px #848484;
+  -moz-box-shadow: 0px 6px 4px -2px #848484;
+  box-shadow: 0px 6px 4px -2px #848484; }
+  nav .center {
+    display: flex;
+    justify-content: space-between;
+    position: relative; }
+  nav .logo {
+    padding: 10px 0; }
+    nav .logo img {
+      display: block; }
+  nav ul {
+    display: flex;
+    justify-content: flex-start; }
+    nav ul li {
+      list-style: none;
+      margin-left: 18px; }
+      nav ul li a, nav ul li button {
+        border: none;
+        outline: 0;
+        background: none;
+        color: #000;
+        display: block;
+        height: 60px;
+        line-height: 60px;
+        font-size: 18px;
+        cursor: pointer;
+        width: 100%; }
+        nav ul li a:hover, nav ul li button:hover {
+          color: #0776b2; }
+      nav ul li .active {
+        color: #0776b2;
+        cursor: default; }
+  nav .down-lists, nav .second-down-lists {
+    display: none;
+    padding-top: 15px; }
+    nav .down-lists div, nav .second-down-lists div {
+      width: 25px;
+      height: 3px;
+      background: #0776b2;
+      margin: 5px; }
+
+.banner .swiper-first-container {
+  max-width: 100%; }
+.banner .swiper-slide {
+  position: relative; }
+  .banner .swiper-slide img {
+    width: 100%;
+    height: 60vh; }
+  .banner .swiper-slide h1 {
+    max-width: 50%;
+    font-size: 51px;
+    color: #fff;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 10%; }
+
+.swiper-button-prev, .swiper-button-next {
+  display: none; }
+
+.services {
+  padding: 30px 20px 60px 20px; }
+  .services .cards {
+    justify-content: space-between; }
+    .services .cards > div {
+      border-radius: 10px;
+      max-width: 30%; }
+
+.popular {
+  background: url(../images/banner_1.jpg) center center no-repeat fixed;
+  padding: 30px 20px 40px 20px;
+  max-width: 100%;
+  background-size: cover; }
+  .popular h2 {
+    color: #fff; }
+  .popular .classes .owl-carousel {
+    display: flex;
+    justify-content: space-between; }
+  .popular .classes .box {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s; }
+    .popular .classes .box .font-awesome {
+      text-align: center;
+      font-size: 80px;
+      color: #0776b2;
+      position: relative;
+      transition: 0.5s;
+      -webkit-transition: 0.5s; }
+      .popular .classes .box .font-awesome .fa-wordpress {
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); }
+      .popular .classes .box .font-awesome::before {
+        content: '';
+        background: #0776b2;
+        width: 0px;
+        height: 3px;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        transition: 0.5s; }
+    .popular .classes .box .class-description {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column; }
+      .popular .classes .box .class-description h5 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        color: #fff; }
+      .popular .classes .box .class-description .first-div {
+        color: #fff;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center; }
+        .popular .classes .box .class-description .first-div .left, .popular .classes .box .class-description .first-div .right {
+          display: flex;
+          justify-content: flex-start; }
+        .popular .classes .box .class-description .first-div .right {
+          margin-left: 10px; }
+        .popular .classes .box .class-description .first-div span {
+          margin-right: 8px;
+          margin-left: 8px; }
+      .popular .classes .box .class-description .read-more {
+        text-align: center;
+        margin-top: 20px; }
+        .popular .classes .box .class-description .read-more a {
+          border-color: #fff;
+          color: #fff; }
+    .popular .classes .box:hover .font-awesome .fa-wordpress {
+      filter: grayscale(0);
+      -webkit-filter: grayscale(0%); }
+    .popular .classes .box:hover .font-awesome::before {
+      content: '';
+      width: 100%; }
+
+.courses {
+  padding: 30px 20px 40px 20px;
+  background: #ececee;
+  text-align: center; }
+  .courses .filter {
+    display: inline-block; }
+    .courses .filter .btn {
+      margin-top: 36px;
+      background: #fff;
+      width: 200px;
+      margin-left: 10px; }
+      .courses .filter .btn:hover {
+        background: #0776b2;
+        color: #fff;
+        cursor: pointer; }
+    .courses .filter .act {
+      background: #0776b2;
+      color: #fff; }
+      .courses .filter .act:hover {
+        cursor: default; }
+  .courses .cards {
+    margin-top: 30px; }
+    .courses .cards > div {
+      max-width: 30%;
+      background: #fff;
+      padding: 0px;
+      position: relative; }
+      .courses .cards > div .for-service-description {
+        margin: 30px;
+        display: flex;
+        flex-direction: column; }
+        .courses .cards > div .for-service-description h4 {
+          width: 300px;
+          margin: auto;
+          -webkit-box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+          border-radius: 300px;
+          margin-top: -55px;
+          position: relative;
+          background: #fff;
+          z-index: 100;
+          height: 40px;
+          line-height: 40px; }
+        .courses .cards > div .for-service-description p {
+          text-align: left; }
+        .courses .cards > div .for-service-description span, .courses .cards > div .for-service-description small {
+          text-align: left;
+          display: inline-block;
+          margin-top: 10px;
+          font-size: 14px; }
+        .courses .cards > div .for-service-description small {
+          margin-top: 0px; }
+      .courses .cards > div strong {
+        position: absolute;
+        right: 0;
+        top: 0%;
+        background: rgba(7, 118, 178, 0.8);
+        color: #fff;
+        width: 40%;
+        height: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        line-height: 50px; }
+      .courses .cards > div img {
+        width: 100%;
+        height: 350px; }
+  .courses .surrounding-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; }
+    .courses .surrounding-box .btn {
+      background: #0776b2;
+      color: #fff; }
+      .courses .surrounding-box .btn:hover {
+        background: transparent;
+        color: #0776b2;
+        border: 1px solid #0776b2; }
+
+.about {
+  padding: 30px 20px 40px 20px; }
+  .about .about-container {
+    display: flex;
+    justify-content: space-between; }
+    .about .about-container__image {
+      max-width: 40%; }
+    .about .about-container__description {
+      max-width: 60%;
+      margin-top: 35px;
+      font-size: 18px; }
+      .about .about-container__description--counter__container {
+        margin-top: 34px;
+        display: flex;
+        justify-content: flex-start; }
+        .about .about-container__description--counter__container > div {
+          text-align: center; }
+          .about .about-container__description--counter__container > div strong {
+            font-size: 28px;
+            font-weight: 400; }
+        .about .about-container__description--counter__container .counter {
+          margin: 20px;
+          font-size: 50px;
+          background-color: #fff;
+          width: 130px;
+          border-radius: 50%;
+          border: 6px solid #0776b2;
+          height: 130px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+
+.blog {
+  padding: 30px 0 40px 0;
+  max-width: 100%; }
+  .blog h2 {
+    color: #fff; }
+  .blog .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 62px; }
+  .blog .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 700px; }
+    .blog .swiper-slide .cards > div {
+      max-width: 100%;
+      background: #fff; }
+      .blog .swiper-slide .cards > div .for-service-image {
+        text-align: center; }
+        .blog .swiper-slide .cards > div .for-service-image img {
+          display: inline-block;
+          height: 350px;
+          width: 100%; }
+      .blog .swiper-slide .cards > div .for-service-description span {
+        display: block;
+        margin-top: 8px; }
+
+.testimonials {
+  padding: 30px 70px 40px 70px; }
+  .testimonials .swiper-second-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px; }
+  .testimonials .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 13px 0px rgba(0, 0, 0, 0.75); }
+    .testimonials .swiper-slide .swiper-cards {
+      display: flex;
+      position: relative; }
+      .testimonials .swiper-slide .swiper-cards > div {
+        padding: 120px 30px 45px 60px; }
+        .testimonials .swiper-slide .swiper-cards > div p {
+          font-size: 18px; }
+        .testimonials .swiper-slide .swiper-cards > div h4 {
+          font-size: 26px;
+          color: #0776b2;
+          font-weight: 400;
+          margin-top: 20px; }
+          .testimonials .swiper-slide .swiper-cards > div h4 span {
+            color: #000;
+            font-size: 14px;
+            display: block; }
+      .testimonials .swiper-slide .swiper-cards .absolute-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
+        position: absolute;
+        top: -35px;
+        left: 45%;
+        overflow: hidden; }
+        .testimonials .swiper-slide .swiper-cards .absolute-image img {
+          width: 100%;
+          height: 100%; }
+      .testimonials .swiper-slide .swiper-cards .testi-up, .testimonials .swiper-slide .swiper-cards .testi-down {
+        position: absolute;
+        top: 0;
+        left: 0; }
+        .testimonials .swiper-slide .swiper-cards .testi-up img, .testimonials .swiper-slide .swiper-cards .testi-down img {
+          height: 130px; }
+      .testimonials .swiper-slide .swiper-cards .testi-down {
+        top: auto;
+        left: auto;
+        right: 0%;
+        bottom: 0%; }
+
+.clients {
+  background: #ececee;
+  padding: 30px 20px 40px 20px; }
+  .clients .clients-listing {
+    margin-top: 40px;
+    max-width: 100%;
+    overflow: hidden; }
+    .clients .clients-listing img {
+      height: 200px; }
+    .clients .clients-listing .owl-second-carousel .owl-stage {
+      display: flex;
+      justify-content: space-between; }
+    .clients .clients-listing .owl-second-carousel .owl-item {
+      display: flex;
+      justify-content: center; }
+    .clients .clients-listing .owl-second-carousel .owl-nav {
+      display: none; }
+    .clients .clients-listing .slides {
+      /* Center slide text vertically */
+      max-width: 100%; }
+
+.contact {
+  padding: 30px 20px 40px 20px;
+  background: url("../images/banner_1.jpg") center center fixed no-repeat;
+  max-width: 100%;
+  background-size: cover; }
+  .contact h2 {
+    color: #fff; }
+  .contact .form-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between; }
+    .contact .form-box .company-information {
+      max-width: 30%;
+      display: flex;
+      flex-direction: column; }
+      .contact .form-box .company-information h5 {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 1px; }
+      .contact .form-box .company-information > div {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 28px; }
+        .contact .form-box .company-information > div span, .contact .form-box .company-information > div small {
+          font-size: 18px;
+          color: #fff; }
+        .contact .form-box .company-information > div span {
+          font-size: 28px;
+          margin-right: 25px; }
+    .contact .form-box form {
+      width: 40%;
+      display: flex;
+      flex-direction: column; }
+      .contact .form-box form input, .contact .form-box form textarea {
+        margin-bottom: 22px;
+        padding: 0 10px;
+        height: 42px;
+        width: 100%;
+        font-size: 16px; }
+      .contact .form-box form textarea {
+        height: auto;
+        max-width: auto; }
+      .contact .form-box form input[type=submit] {
+        max-width: 120px;
+        display: inline-block;
+        border: none;
+        cursor: pointer; }
+
+.footer {
+  background: #2e2e2e;
+  padding: 40px 20px; }
+  .footer .center {
+    display: flex;
+    justify-content: space-between; }
+  .footer-middleDiv, .footer-lastDiv, .footer-firstDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%; }
+    .footer-middleDiv button, .footer-lastDiv button, .footer-firstDiv button {
+      background: none;
+      border: none;
+      outline: 0; }
+    .footer-middleDiv h5, .footer-lastDiv h5, .footer-firstDiv h5 {
+      font-size: 22px;
+      color: #fff;
+      margin-bottom: 10px; }
+    .footer-middleDiv p, .footer-lastDiv p, .footer-firstDiv p {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #fff; }
+    .footer-middleDiv a, .footer-lastDiv a, .footer-firstDiv a {
+      margin-top: 20px; }
+  .footer-middleDiv button {
+    background: none;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 8px; }
+    .footer-middleDiv button:hover {
+      color: #0776b2;
+      cursor: pointer; }
+
+@media (max-width: 1300px) {
+  .top {
+    padding: 16px 20px; }
+
+  nav {
+    padding: 0 20px; }
+
+  .services .cards > div, .courses .cards > div {
+    max-width: 48%; } }
+@media (max-width: 850px) {
+  .top {
+    flex-wrap: wrap; }
+    .top-left {
+      flex-wrap: wrap; }
+
+  nav ul {
+    display: none; }
+  nav .down-lists, nav .second-down-lists {
+    display: block; }
+
+  .mobile-nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    background: rgba(7, 118, 178, 0.7);
+    width: 100%;
+    z-index: 100;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: animateNav 0.3s ease-in; }
+    .mobile-nav ul li {
+      margin-left: 0; }
+      .mobile-nav ul li button, .mobile-nav ul li a {
+        color: #fff;
+        padding-left: 10px; }
+        .mobile-nav ul li button:hover, .mobile-nav ul li button:active, .mobile-nav ul li a:hover, .mobile-nav ul li a:active {
+          background: #fff;
+          columns: #0776b2; }
+
+  @keyframes animateNav {
+    0% {
+      transform: translateY(-30%); }
+    100% {
+      transform: translateY(0%); } }
+  .banner .swiper-slide img {
+    height: 50vh; }
+  .banner .swiper-slide h1 {
+    font-size: 38px;
+    max-width: 100%; }
+
+  .services .cards, .courses .cards {
+    flex-direction: column; }
+    .services .cards > div, .courses .cards > div {
+      max-width: 100%; }
+      .services .cards > div:not(first-child), .courses .cards > div:not(first-child) {
+        margin-left: 0; }
+
+  .popular .classes .box {
+    max-width: 100%; }
+
+  .hide-sell {
+    display: none; }
+
+  .about .about-container__description--counter__container .counter {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    border: 4px solid #0776b2; }
+
+  .testimonials {
+    padding: 30px 20px 40px 20px; }
+    .testimonials .swiper-slide .swiper-cards > div {
+      padding: 80px 50px 35px 70px; }
+      .testimonials .swiper-slide .swiper-cards > div p {
+        font-size: 14px; }
+    .testimonials .swiper-slide .swiper-cards .testi-up img, .testimonials .swiper-slide .swiper-cards .testi-down img {
+      height: 100px; }
+
+  .detail .center > div {
+    flex-direction: column; }
+    .detail .center > div p {
+      width: 100% !important; }
+    .detail .center > div .right {
+      width: 100% !important;
+      margin-top: 30px; } }
+@media (max-width: 620px) {
+  .top-left__email {
+    margin-left: 0; }
+
+  .banner .swiper-slide img {
+    height: 300px; }
+  .banner .swiper-slide h1 {
+    text-align: left;
+    font-size: 22px; }
+
+  .popular .classes {
+    display: flex;
+    flex-direction: column; }
+    .popular .classes .box {
+      align-items: center;
+      margin-right: 0;
+      max-width: 100%; }
+      .popular .classes .box .class-description h5 {
+        font-size: 20px; }
+
+  .about {
+    padding: 30px 20px; }
+    .about .about-container {
+      flex-direction: column;
+      text-align: center; }
+      .about .about-container__image {
+        max-width: 100%; }
+        .about .about-container__image img {
+          display: inline-block; }
+      .about .about-container__description {
+        max-width: 100%; }
+        .about .about-container__description--counter__container {
+          display: none; }
+
+  .blog .swiper-slide {
+    max-width: 300px;
+    height: 500px; }
+    .blog .swiper-slide .cards > div .for-service-image img {
+      height: 250px; }
+    .blog .swiper-slide .cards > div .for-service-description h4 {
+      font-size: 22px; }
+    .blog .swiper-slide .cards > div .for-service-description p {
+      font-size: 16px; }
+
+  .contact .form-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .contact .form-box .company-information {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .contact .form-box .company-information > div {
+        width: 100%; }
+    .contact .form-box form {
+      margin-top: 30px;
+      width: 100%; }
+
+  .footer .center {
+    flex-wrap: wrap; }
+  .footer-firstDiv {
+    max-width: 100%; }
+  .footer-middleDiv, .footer-lastDiv {
+    max-width: 40%; }
+    .footer-middleDiv h5, .footer-lastDiv h5 {
+      margin-top: 50px;
+      font-size: 18px; }
+
+  .course-detail .outline .first-step h4 {
+    font-size: 22px !important; } }
+@media (max-width: 360px) {
+  .top-right {
+    margin-left: 15px;
+    flex-wrap: wrap; }
+
+  .courses .cards > div .for-service-description h4 {
+    font-size: 20px;
+    width: 200px; }
+
+  .testimonials .swiper-slide .swiper-cards > div {
+    padding: 80px 20px 35px 20px; }
+    .testimonials .swiper-slide .swiper-cards > div p {
+      font-size: 14px; }
+  .testimonials .swiper-slide .swiper-cards .testi-up img, .testimonials .swiper-slide .swiper-cards .testi-down img {
+    height: 50px; } }
+.second-banner {
+  max-width: 100%;
+  background-size: cover; }
+  .second-banner .center {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .second-banner h2 {
+    color: #fff; }
+
+.detail {
+  padding: 30px 20px 40px 20px; }
+  .detail h3 {
+    font-size: 30px;
+    color: #0776b2;
+    position: relative;
+    font-weight: 600;
+    text-align: center; }
+  .detail .center > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+    .detail .center > div p {
+      font-size: 18px;
+      width: 50%; }
+    .detail .center > div .right {
+      display: flex;
+      flex-direction: column;
+      width: 40%; }
+      .detail .center > div .right h4 {
+        background: #0776b2;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400; }
+      .detail .center > div .right > div {
+        height: 20vh;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #848484; }
+        .detail .center > div .right > div a {
+          border-bottom: 1px solid #848484;
+          height: 32px;
+          line-height: 32px;
+          padding-left: 20px;
+          color: #000;
+          position: relative; }
+          .detail .center > div .right > div a::before {
+            content: '';
+            height: 32px;
+            width: 0%;
+            background: #0776b2;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            z-index: -100; }
+          .detail .center > div .right > div a:hover {
+            color: #fff; }
+        .detail .center > div .right > div a:hover::before {
+          width: 100%; }
+        .detail .center > div .right > div a:last-child {
+          border-bottom: none; }
+
+.course-detail {
+  padding: 30px 20px 40px 20px;
+  background: #ececee; }
+  .course-detail .outline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px; }
+    .course-detail .outline .first-step {
+      margin-top: 20px; }
+      .course-detail .outline .first-step h4 {
+        color: #fff;
+        background: #2E2E2E;
+        padding: 0 20px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        cursor: pointer;
+        position: relative; }
+        .course-detail .outline .first-step h4 .show-hidden, .course-detail .outline .first-step h4 .hide-hidden {
+          position: absolute;
+          right: 10px;
+          top: 4px;
+          cursor: pointer; }
+        .course-detail .outline .first-step h4 .hide-hidden {
+          display: none; }
+      .course-detail .outline .first-step .hidden-step {
+        border: 1px solid #848484;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        display: none; }
+        .course-detail .outline .first-step .hidden-step li {
+          margin-top: 12px;
+          list-style-type: square;
+          font-size: 18px; }
+
+/*# sourceMappingURL=main.css.map */
